@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVO Property Services</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/4cc9bcca95.js" crossorigin="anonymous"></script>
+<!-- This is for the CAPTCHA input -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+</head>
+<body>
+
+<div class="contact-container">
+
+    <!-- NAVIGATION -->
+
+    <nav class="navigate sticky">
+        <div class="navbar">
+            <div class="navhead">
+                <img class="header-logo" src="images/avo-logo.png" alt="AVO Property Services">
+            </div>
+            
+            <div class="navlist">
+                <ul>
+                    <li><a href="index.html"><span class="">Home</span></a></li>
+                    <li><a href="services.html"><span class="">Services</span></a></li>
+                    <li><a href="planters.html"><span class="">Planters</span></a></li>
+                    <li><a href="contact.html"><span class="li-contact">Contact</span></a></li>
+    
+                        <!--
+                        <span class="li-home">
+                        <span class="li-services">
+                        <span class="li-planters">
+                        <span class="li-contact">
+                        -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+
+    <main class="main contact-main">
+        <div>
+            <h1>We're Ready to Help</h1>
+            <p>Whether you have your dream already planned out or are just in the beginning stages of brainstorming, <em><strong>AVO Property Services</strong></em> is here to help. Fill out our form and we'll respond with a <em><strong>FREE no-obligation</strong></em> quote, or answer any questions or concerns you might have. We'll be with you every step of the way.</p><br>
+            <h1>Contact Us</h1>
+            <p><strong>E-mail: </strong> <a href="mailto:info@avoservices.ca?Subject=Quote%20Request">info@avoservices.ca</a></p>
+            <p><strong>Phone: </strong>289-AVO-8976</p>
+            <p><strong>Mailing Address: </strong><br>
+                P.O. Box 123<br>
+                123 Anystreet Rd S<br>
+                Toronto, ON  1A1 A1A</p>
+        </div>
+    </main>
+
+    <div class="contact-quote">
+        <div class="req-quote">
+            <i class="fas fa-caret-square-down"></i>
+            <h1 class="h1-form">Request a Quote</h1>
+        </div>
+        <form action="https://api.form-data.com/f/gwc5mvfqqydklzbcg2n13j" method="post" >
+            <div><input type="text" class="input-box" name="Name:" placeholder="Name" required></div>
+            <div><input type="text" class="input-box" name="Company:" placeholder="Company Name" required></div>
+            <div><input type="text" class="input-box" name="Email:" placeholder="Email" required></div>
+            <div><input type="text" class="input-box" name="Phone:" placeholder="Phone Number" required></div>
+                <div class="checkboxes">
+                    <h3>I'm interested in:</h3>
+                    <div class="chk-labels"><input type="checkbox" class="input-check" name="Landscaping"><label>Landscaping</label></div>
+                    <div class="chk-labels"><input type="checkbox" class="input-check" name="Groundskeeping / Yard Clean Up"><label>Groundskeeping / Yard Clean Up</label></div>
+                    <div class="chk-labels"><input type="checkbox" class="input-check" name="Junk Removal"><label>Junk Removal</label></div>
+                    <div class="chk-labels"><input type="checkbox" class="input-check" name="Packing / Moving / Delivery"><label>Packing / Moving / Delivery</label></div>
+                    <div class="chk-labels"><input type="checkbox" class="input-check" name="TV Mounting / Furniture Assembly"><label>TV Mounting / Furniture Assembly</label></div>
+                    <div class="chk-labels"><input type="checkbox" class="input-check" name="Carpet & Upholstery Cleaning"><label>Carpet & Upholstery Cleaning</label></div>
+                    <div class="chk-labels"><input type="checkbox" class="input-check" name="Janitorial Maintenance"><label>Janitorial Maintenance</label></div>
+                </div>
+            <div><textarea rows="50" cols="20" class="input-area" name="Comment:" placeholder="Comments"></textarea></div>
+
+            <div class="g-recaptcha captcha-box" data-sitekey="6Lel4Z4UAAAAAOa8LO1Q9mqKRUiMYl_00o5mXJrR">
+            </div>
+
+            <input type="text" name="botsnag" style="display:none !important"
+            tabindex="-1" autocomplete="off">
+
+            <div>
+                <input type="submit" class="sub-btn" value="Send">
+                <input type="reset" class="reset-btn" value="Reset">
+            </div>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <div class="plant-footer">
+            <div class="plant-footer-item">AVO Property Services &copy; 2022</div>
+            <div class="plant-footer-item"><a href="mailto:info@avoservices.ca?Subject=Quote%20Request">info@avoservices.ca</a></div>
+            <div class="plant-footer-item">289-AVO-8976</div>
+        </div>
+    </footer>
+
+</div>
+</body>
+</html>
